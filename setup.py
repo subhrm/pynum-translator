@@ -5,8 +5,8 @@ with open("README.md", "r") as readme:
     long_description = readme.read()
 
 setup(
-    name="pynum_translator",
-    version="0.0.1",
+    name="pynum-translator",
+    version="0.0.2",
     author="Subhendu Ranjan Mishra",
     author_email="subhendu.r.mishra@gmail.com",
     description="A python library for translating numbers to numeric representation in another language.",

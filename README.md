@@ -13,7 +13,7 @@ The following languages are supported.
 
 ### Installation
 
-Using PIP :  `pip install pynum_translator`
+Using PIP :  `pip install pynum-translator`
 
 
 ### Example Usage
