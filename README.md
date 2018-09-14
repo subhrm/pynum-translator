@@ -1,7 +1,7 @@
 # pynum-translator
 A python library for translating numbers to numeric representation in another language. 
 
-#### Supported Languages
+### Supported Languages
 
 The following languages are supported.
 
@@ -11,14 +11,34 @@ The following languages are supported.
 | 2   	| hi            	| Hindi   	| ०१२३४५६७८९ 	|
 | 3   	| or            	| Oriya   	| ୦୧୨୩୪୫୬୭୮୯  |
 
-#### Installation
+### Installation
 
-TBD
+Using PIP :  `pip install pynum_translator`
 
-#### Usage
 
-TBD
+### Example Usage
 
-#### Example
+Find below some examples
 
-TBD
+    >> # Import the module
+    >> from pynum_translator import Translator
+    
+    >> # Try the Hindi Translator
+    >> hi_translator = Translator(lang="hi")
+    >> print(hi_translator.translate(123))
+    १२३
+    >> print(hi_translator.translate(76.05))
+    ६७.०५
+
+    >> # Try the Oriya Translator
+    >> or_translator = Translator(lang="or")
+    >> print(or_translator.translate(123))
+    ୧୨୩
+    >> print(or_translator.translate("456"))
+    ୪୫୬
+    >> print(or_translator.translate("There are 456 ducks in the zoo!"))
+    There are ୪୫୬ ducks in the zoo!
+
+### Contributing
+
+PRs welcome !

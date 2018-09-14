@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 import unittest
-from ..translator import Translator
+from .. import Translator
 from ..dictionary import list_supported_languages
 from ..custom_exceptions import Language_Not_Supported_Exception
 

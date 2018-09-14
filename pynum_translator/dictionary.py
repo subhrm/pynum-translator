@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """ Define the numric aplhabet for all languages
 """
 
